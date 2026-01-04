@@ -39,14 +39,14 @@ export default function Hero() {
         </p>
 
         {/* Decorative bottom stars */}
-        <div className="flex items-center justify-center gap-3 md:gap-4 mt-10 md:mt-12">
+        <div className="flex items-center justify-center gap-3 md:gap-4 mt-10 md:mt-12 mb-16 md:mb-20">
           <span className="text-xl md:text-2xl lg:text-3xl text-[#c4a574]">★</span>
           <span className="text-xl md:text-2xl lg:text-3xl text-[#c4a574]">★</span>
           <span className="text-xl md:text-2xl lg:text-3xl text-[#c4a574]">★</span>
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-6 md:bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-8 md:bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
           <div className="flex flex-col items-center gap-2">
             <span className="font-mono text-[10px] md:text-xs text-[#c4a574] tracking-wider">SCROLL</span>
             <svg className="w-5 h-5 md:w-6 md:h-6 text-[#c4a574]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
