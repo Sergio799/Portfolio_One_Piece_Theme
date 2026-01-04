@@ -35,7 +35,7 @@ export default function Hero() {
 
         {/* Tagline */}
         <p className="font-serif text-xs md:text-sm lg:text-base text-[#c4a574] text-center max-w-md md:max-w-2xl italic px-4 mb-20 md:mb-24">
-          Building scalable, production-grade web applications
+          I enjoy building clean, scalable systems that solve real-world problems and improve user experience.
         </p>
       </div>
 
