@@ -38,13 +38,6 @@ export default function Hero() {
           Building scalable, production-grade web applications
         </p>
 
-        {/* Decorative bottom stars */}
-        <div className="flex items-center justify-center gap-3 md:gap-4 mt-10 md:mt-12 mb-16 md:mb-20">
-          <span className="text-xl md:text-2xl lg:text-3xl text-[#c4a574]">★</span>
-          <span className="text-xl md:text-2xl lg:text-3xl text-[#c4a574]">★</span>
-          <span className="text-xl md:text-2xl lg:text-3xl text-[#c4a574]">★</span>
-        </div>
-
         {/* Scroll indicator */}
         <div className="absolute bottom-8 md:bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
           <div className="flex flex-col items-center gap-2">
